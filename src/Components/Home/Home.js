@@ -14,7 +14,7 @@ const Home = () => {
             </div>
             <div className='pt-20 pb-20'>
                 <h1 className='text-4xl font-semibold pb-20'>Our Courses</h1>
-                <div className='mx-auto container grid lg:grid-cols-4 gap-4 grid-cols-1'>
+                <div className='mx-auto container grid lg:grid-cols-4 gap-4 grid-cols-1 items-center px-4 lg:px-0'>
                     {
                         courses.map(course => (
                             <Courses

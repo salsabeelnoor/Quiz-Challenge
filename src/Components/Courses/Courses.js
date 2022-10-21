@@ -5,7 +5,7 @@ const Courses = (props) => {
     const {id, name, logo, total} = props.course;
     return (
         <div>
-            <div className="card w-96 bg-base-100 shadow-xl image-full">
+            <div className="card w-100 bg-base-100 shadow-xl image-full">
             <figure>
                 <img className='bg-blue-200' src={logo} alt="..." />
             </figure>
