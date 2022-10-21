@@ -4,7 +4,7 @@ This is quiz related website.
 
 ## live server
 
-ahkdhff
+https://salsabeel-quiz-challange.netlify.app/
 
 ## Description
 
