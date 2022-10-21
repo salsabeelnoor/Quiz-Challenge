@@ -11,7 +11,7 @@ const Quiz = () => {
             <div className='text-gray-600 text-4xl font-bold pt-10'>
                 <h1>Welcome to {name} Quiz !!</h1>
             </div>
-            <div className='pb-16'>
+            <div className='pt-12'>
                 {
                     questions.map(question => (
                         <Questions
