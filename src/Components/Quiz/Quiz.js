@@ -8,7 +8,7 @@ const Quiz = () => {
     const {name, questions} = quiz;
     return (
         <div className='bg-gray-100'>
-            <div className='text-gray-600 text-4xl font-bold pt-10'>
+            <div className='text-gray-600 lg:text-4xl text-3xl font-bold pt-10'>
                 <h1>Welcome to {name} Quiz !!</h1>
             </div>
             <div className='pt-12'>
