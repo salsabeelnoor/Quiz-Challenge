@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import logo from '../../images/quiz-icon.png';
 const Header = () => {
     return (
-        <div className='bg-[#acc6e0]'> 
+        <div className='bg-[#ccddee]'> 
             <div className="navbar mx-auto container ">
                 <div className="navbar-start">
                     <div className="dropdown">
