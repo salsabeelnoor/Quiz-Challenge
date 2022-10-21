@@ -10,7 +10,7 @@ const Statistics = () => {
 
     return (
         <div className='bg-gray-100 min-h-[100vh] flex justify-center pt-20'>
-            <ResponsiveContainer width="80%" height="100%">
+            <ResponsiveContainer width="80%" height={400}>
                 <LineChart
                     data={courses}
                     margin={{
