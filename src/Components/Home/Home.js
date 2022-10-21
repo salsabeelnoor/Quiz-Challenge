@@ -5,7 +5,7 @@ import './Home.css';
 
 const Home = () => {
     const courseData = useLoaderData();
-    const courses = courseData.data; 
+    const courses = courseData.data;
     return (
         <div >
             <div className='header-container min-h-[700px]'>
@@ -13,8 +13,17 @@ const Home = () => {
                 <p className='text-white text-center text-xl pt-10'>Welcome to the world's largest quiz community. We have one the most effective quiz questions to <br />check your knowledge and skills.It only takes minutes to check your knowledge and know your outcome of efforts. Take a test on <br /> your favourite  coding topic and <span>rock'n'roll</span> .</p>
             </div>
             <div className='pt-20'>
-                <h1 className='text-4xl font-semibold'>Our Courses</h1>
-                <Courses></Courses>
+                <h1 className='text-4xl font-semibold pb-20'>Our Courses</h1>
+                <div className='mx-auto container grid lg:grid-cols-4 gap-4 grid-cols-1'>
+                    {
+                        courses.map(course => (
+                            <Courses
+                            key={course.id}
+                            course={course}
+                            ></Courses>
+                        ))
+                    }
+                </div>
             </div>
         </div>
     );
